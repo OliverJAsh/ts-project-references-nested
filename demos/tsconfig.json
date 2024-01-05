@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "../",
+    "outDir": "../demos-dist/",
+    "paths": {
+      "demos/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*",
+    "../app/**/*-demos.*"
+  ],
+  "references": [{ "path": "../app/tsconfig.json" }]
+}

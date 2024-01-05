@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "../app-dist/"
+  },
+  "include": ["**/*"],
+  "exclude": ["**/*-demos.*"]
+}

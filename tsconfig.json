@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/"
+  },
+  "references": [
+    { "path": "./demos/tsconfig.json" },
+    { "path": "./app/tsconfig.json" }
+  ]
+}
